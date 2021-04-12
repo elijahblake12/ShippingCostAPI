@@ -24,7 +24,6 @@ namespace ShippingCostAPI.Controllers
             {
                 StreamReader reader = new StreamReader(dataStream);
                 string responseFromServer = reader.ReadToEnd();
-                //Console.WriteLine(responseFromServer);
                 response.Close();
                 return responseFromServer;
             }          
